@@ -1,0 +1,26 @@
+[project]
+name = "pluralistex"
+version = "0.1"
+description = "Platform for prototypes around Pluralistic.net data captures"
+readme = "README.md"
+authors = [{name = "Brian M. Dennis"}]
+license = {text = "Apache-2.0"}
+requires-python = ">=3.8"
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "click"
+]
+
+[project.urls]
+Homepage = "https://github.com/crossjam/pluralistex"
+Changelog = "https://github.com/crossjam/pluralistex/releases"
+Issues = "https://github.com/crossjam/pluralistex/issues"
+CI = "https://github.com/crossjam/pluralistex/actions"
+
+[project.entry-points.console_scripts]
+pluralistex = "pluralistex.cli:cli"
+
+[project.optional-dependencies]
+test = ["pytest"]

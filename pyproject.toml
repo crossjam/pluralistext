@@ -1,16 +1,19 @@
 [project]
 name = "pluralistex"
-version = "0.1"
+version = "0.1.1"
 description = "Platform for prototypes around Pluralistic.net data captures"
 readme = "README.md"
 authors = [{name = "Brian M. Dennis"}]
 license = {text = "Apache-2.0"}
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 classifiers = [
     "License :: OSI Approved :: Apache Software License"
 ]
 dependencies = [
-    "click"
+    "click",
+    "feedparser",
+    "lxml",
+    "beautifulsoup4"
 ]
 
 [project.urls]

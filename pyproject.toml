@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "pluralistext"
 version = "0.1.1"
@@ -27,3 +31,9 @@ pluralistext = "pluralistext.cli:cli"
 
 [project.optional-dependencies]
 test = ["pytest"]
+
+[dependency-groups]
+test = ["pytest"]
+
+[tool.uv]
+package = true

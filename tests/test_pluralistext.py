@@ -1,5 +1,5 @@
 from click.testing import CliRunner
-from pluralistex.cli import cli
+from pluralistext.cli import cli
 
 
 def test_version():

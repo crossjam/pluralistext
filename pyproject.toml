@@ -1,5 +1,5 @@
 [project]
-name = "pluralistex"
+name = "pluralistext"
 version = "0.1.1"
 description = "Platform for prototypes around Pluralistic.net data captures"
 readme = "README.md"
@@ -17,13 +17,13 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/crossjam/pluralistex"
-Changelog = "https://github.com/crossjam/pluralistex/releases"
-Issues = "https://github.com/crossjam/pluralistex/issues"
-CI = "https://github.com/crossjam/pluralistex/actions"
+Homepage = "https://github.com/crossjam/pluralistext"
+Changelog = "https://github.com/crossjam/pluralistext/releases"
+Issues = "https://github.com/crossjam/pluralistext/issues"
+CI = "https://github.com/crossjam/pluralistext/actions"
 
 [project.entry-points.console_scripts]
-pluralistex = "pluralistex.cli:cli"
+pluralistext = "pluralistext.cli:cli"
 
 [project.optional-dependencies]
 test = ["pytest"]
